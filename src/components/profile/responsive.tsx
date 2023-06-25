@@ -8,7 +8,7 @@ export function ResponsiveProfile() {
         {(state: ProfileSizes) =>
             <Profile
                 className={`mt-10 border-2 w-${state.size} h-${state.size}`}
-                src={`https://cdn.discordapp.com/avatars/907512336988913664/598d177fffd129f8ebcb656472db0ecf.webp?size=${state.image}`}
+                src={`https://cdn.discordapp.com/avatars/907512336988913664/7ced4dd762f61c345d9342f51406e1b8?size=${state.image}`}
                 alt="zyran profile"
             />
         }
